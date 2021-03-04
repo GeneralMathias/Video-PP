@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+			<title>Cold Storage</title>
+			<meta charset="utf-8">
+			<link href="Styles.css" rel="stylesheet">
+</head>
+
+<body id="mainbody">
+	<nav class="nav">
+		<div class="dropdown">
+			<span>Menu</span>
+			<div class="dropdown-content">
+				<a href="WebOfSite.html">Home</a>
+				<br/>
+				<a href=" ">Upload</a>
+				<br/>
+				<a href=" ">Random</a>
+				<br/>
+				<a href="Test.html">Testing</a>
+				<br/>
+			</div>	
+		</div>
+	</nav>
+	
+	<main class="wrapper">
+		<div class="banner">
+			<h1 id="Main Title">Vidya</h1>
+			<br/>
+			
+			<button onclick="VideoSource()" type="button">Play Video</button><br>
+ 
+			<video id="VideoPlayer" controls autoplay>
+				<source id="mp4_src" src="" type="video/mp4">
+			</video>
+
+			<script> 
+				function VideoSource() { 
+					var x = document.getElementById("VideoPlayer");
+					if (x.style.display === "block") {
+						x.style.display = "none";
+					} else {
+						x.style.display = "block";
+					}
+					document.getElementById("mp4_src").src = "Videos/FreedomWave.mp4";
+					document.getElementById("VideoPlayer").load();
+					x.volume = 0.1;
+				} 
+			</script> 
+			
+			
+		</div>
+	</main>
+</body>
