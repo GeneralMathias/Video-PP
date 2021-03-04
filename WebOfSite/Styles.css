@@ -1,12 +1,13 @@
 /* beginning of Style.css*/
+/* Main body Style*/
 #mainbody{
 	text-align: center;
-	}
+}
 
 #Player{
 	Height: 50%; 
 	Width: 50%;
-	}
+}
 
 #VideoPlayer{
 	Height: 80%; 
@@ -14,10 +15,65 @@
 	display: none; 
 	margin-left: auto; 
 	margin-right: auto;
-	}
+}
+/* */
+	
+/*Main Page Media Objects*/
+#CurrentPop {
+	background-color: black;
+	margin-left: 26%;
+	margin-right: 19%;
+	margin-top: 4%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
 
+#MediaObject1 {
+	height: 25%;
+	width: 25%;
+	background-color: gray;
+	padding: 10px;
+	top:20%;
+	left: 54%;
+	volume:0.1;
+	position:absolute;
+}
 
+#MediaObject2 {
+	height: 25%;
+	width: 25%;
+	background-color: gray;
+	padding: 10px;
+	top:20%;
+	left: 27%;
+	volume:0.1;
+	position:absolute;
+}
 
+#MediaObject3 {
+	height: 25%;
+	width: 25%;
+	background-color: gray;
+	padding: 10px;
+	top:50%;
+	left: 54%;
+	volume:0.1;
+	position:absolute;
+}
+
+#MediaObject4 {
+	height: 25%;
+	width: 25%;
+	background-color: gray;
+	padding: 10px;
+	top:50%;
+	left: 27%;
+	volume:0.1;
+	position:absolute;
+}
+/* */
+
+/*Dropdown Menu*/
 .dropdown {
   position: relative;
   display: inline-block;
@@ -40,3 +96,4 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* */
