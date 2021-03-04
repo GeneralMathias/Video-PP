@@ -1,0 +1,42 @@
+/* beginning of Style.css*/
+#mainbody{
+	text-align: center;
+	}
+
+#Player{
+	Height: 50%; 
+	Width: 50%;
+	}
+
+#VideoPlayer{
+	Height: 80%; 
+	Width: 95%; 
+	display: none; 
+	margin-left: auto; 
+	margin-right: auto;
+	}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: Red;
+  padding: 10px;
+  Margin: 0 auto;
+  float: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
